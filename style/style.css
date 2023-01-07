@@ -128,7 +128,7 @@ nav ul li a{
  /* think positive section */
 
 .label {
-    background-image: url(/images/watch.png);
+    background-image: url(./images/watch.png);
     /* background-image: linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,0));
     background-blend-mode: overlay; */
     height: 30vh;
