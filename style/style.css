@@ -26,6 +26,9 @@ nav ul li a{
     background-color: white;
     margin-right: 10px;
     border-radius: 5px;
+    color: #1554A1;
+    font-size: 16px;
+    font-weight: 800px;
 }
 
 
@@ -126,7 +129,8 @@ nav ul li a{
 
 .label {
     background-image: url(/images/watch.png);
-    /* background-image: linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,0)); */
+    /* background-image: linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,0));
+    background-blend-mode: overlay; */
     height: 30vh;
     width: 50%;
     background-repeat: no-repeat;
@@ -224,3 +228,4 @@ footer {
     font-weight: 600;
     font-size: 20px;
 }
+          /* the end */
