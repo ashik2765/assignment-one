@@ -5,22 +5,35 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
-.btn-primary {
+/* style-header section nav */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-right: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
     padding: 10px 20px;
-    border-radius: 5px;
     border: none;
     background-color: white;
-    color: #1758A5;
-    margin-top: 10px;
-    font-weight: 900;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
-/* this is header style */
+
+/* style-header section */
 .header-bg {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/banner/banner3.png);
+    background-image:url(/images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +43,15 @@
     margin-right: 80px;
     padding-top: 200px;
     text-align: right;
+}
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #1758A5;
+    margin-top: 10px;
+    font-weight: 900;
 }
 
 .header-title {
@@ -44,7 +66,7 @@
     font-size: 16px;
 }
 
-/* this is main section style */
+/*style-main section one */
 .section-one {
     display: flex;
     justify-content: space-between;
@@ -77,7 +99,7 @@
     padding: 5px;
     color: #444343;
 }
-
+/* style-main section two */
 .section-two {
     margin-top: 120px;
 }
@@ -100,14 +122,16 @@
     padding: 10Px;
 }
 
+ /* think positive section */
+
 .label {
     background-image: url(/images/watch.png);
-
+    /* background-image: linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,0)); */
     height: 30vh;
     width: 50%;
     background-repeat: no-repeat;
     margin-left: 380px;
-    margin-bottom:40px;
+    margin-bottom:50px;
     margin-top: 70px;
 }
 
@@ -115,6 +139,7 @@
     margin:80px 0px 0px 70px;
     color: white;
     padding:50px 0px 20px 0px;
+    
 }
 
 .call-btn {
@@ -127,6 +152,8 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+/* style-footer section */
 
 footer {
     display: flex;
@@ -165,6 +192,8 @@ footer {
     padding: 5px;
     text-decoration: none;
 }
+
+/* footer-right section */
 
 .subscribe {
     margin-top: 60px;
