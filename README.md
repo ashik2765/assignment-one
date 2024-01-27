@@ -1,6 +1,6 @@
 # Leader-Board
 
-## [Live link]([https://65b3a86220cae80764f589ca--wonderful-belekoy-3ee157.netlify.app/](https://ashik2765.github.io/assignment-one/))
+## [Live link](https://ashik2765.github.io/assignment-one/)
 
 
 ## About Website.
@@ -10,5 +10,7 @@
 * In this website has 3 section home,blog,and login.
 * It's mobile responsive.
 * There are 3 section in the home section.
+
+
 
 
